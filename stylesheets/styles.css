@@ -287,6 +287,10 @@ header li:hover {
   background: linear-gradient(top, #C3001D 0%,#950119 100%);
 }
 
+header.avatar {
+  
+}
+
 a.buttons {
 	-webkit-font-smoothing: antialiased;
 	font-weight: normal;

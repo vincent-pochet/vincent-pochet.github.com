@@ -30,7 +30,7 @@ body {
   font-family: Arvo, Monaco, serif;
 	font-size: 15px;
 	color: #232323;
-	background-color: #232323;
+	background-color: #212121;
 	margin: 0;
 	line-height: 1.8em;
   height: 100%;
@@ -62,7 +62,7 @@ body {
 }
 
 .description {
-  color: white;
+  color: #EEFFFF;
   font-size: 16px;
   clear: left;
   margin: 20px auto;
@@ -70,15 +70,19 @@ body {
 }
 
 .description .name {
-  color: #6c9cbd;
+  color: #82AAFF;
 }
 
 .description .prop {
-  color: #E6DB74;
+  color: #FFCB6B;
 }
 
 .description .number {
-  color: #AE81FF;
+  color: #C792EA;
+}
+
+.description .comment {
+  color: #4A4A4A;
 }
 
 .description .array {

@@ -22,7 +22,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-
 /* Base text styles */
 
 body {
@@ -129,4 +128,8 @@ img {
   .bottom_bar {
     display: none;
   }
+}
+
+pre {
+  margin-top: 20px;
 }

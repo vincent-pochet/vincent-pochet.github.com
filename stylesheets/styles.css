@@ -64,7 +64,7 @@ body {
   color: #EEFFFF;
   font-size: 16px;
   clear: left;
-  margin: 20px auto;
+  margin: 20px auto 140px auto;
   width: 600px;
 }
 
@@ -114,18 +114,24 @@ img {
   border: 1px solid #ccc;
 }
 
+@media print, screen and (max-width: 600px) {
+  .description {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+}
+
 @media print, screen and (max-height: 550px) {
   .bottom_bar {
     height: 30px;
   }
 
-  .bottom_bar img {
-    display: none;
+  .description {
+    margin: 20px auto 20px auto;
   }
-}
 
-@media print, screen and (max-height: 450px) {
-  .bottom_bar {
+  .bottom_bar img {
     display: none;
   }
 }

@@ -38,38 +38,127 @@
   </head>
 
   <body>
-    <section class="description" itemscope itemtype="http://schema.org/Person">
+    <section id="profile" class="description" itemscope itemtype="http://schema.org/Person">
       <h1>Vincent Pochet, full stack developer</h1>
       <p>Welcome to my page!</p>
       <p>I'm a polyglot web developer specialized in Ruby on Rails, Golang and JavaScript languages. I'm based in Geneva, Switzerland 🇨🇭 and I'm working remotly 🌍.</p>
       <p>I've co-founded Ruby42, a web development studio.</p>
 
       <h2>More information about me:</h2>
-      <pre>
-        me = {
-            <span class="name">name:</span>                <span class="prop" itemprop="name">'Vincent Pochet'</span>,
-            <span class="name">email:</span>                 <a href="mailto:vincent . pochet @ gmail . com" class="prop" target="blank" rel="noopener" itemprop="email" title="email address">'vincent . pochet @ gmail . com'</a>,&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// Remove spaces</span>
-            <span class="name">job:</span>                      <a href="http://ruby42.com" class="prop" target="blank" rel="noopener" itemprop="jobTitle" title="job title">'Co-founder & full stack developer at Ruby42'</a>,
-            <span class="name">languages:</span>       [<span class="prop">'Ruby'</span>, <span class="prop">'Javascript'</span>, <span class="prop">'Go'</span>, <span class="prop">'C#'</span>],
-            <span class="name">skills:</span>                  [<span class="prop">'Ruby on Rails'</span>,
-                                            <span class="prop">'PostgreSQL'</span>,
-                                            <span class="prop">'Elasticsearch'</span>,
-                                            <span class="prop">'Linux'</span>,
-                                            <span class="prop">'Docker'</span>,
-                                            <span class="prop">'Apache Kafka'</span>],
-            <span class="name">twitter:</span>               <a href="https://twitter.com/vin100pochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="twitter profile">'@vin100pochet'</a>,
-            <span class="name">github:</span>               <a href="https://github.com/vincent-pochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="github profile">'vincent-pochet'</a>,
-            <span class="name">coordinates:</span>    { <a href="https://www.google.fr/maps/place/Gen%C3%A8ve,+Suisse/@46.2050295,6.1440885,13z/data=!3m1!4b1!4m2!3m1!1s0x478c650693d0e2eb:0xa0b695357b0bbc39" class="array" target="blank" rel="noopener" title="coordinates"><span class="name">lat:</span> <span class="number">46.2050295</span>, <span class="name">long:</span> <span class="number">6.1440885</span></a> },
-            <span class="name">linkedin:</span>           <a href="https://www.linkedin.com/in/vincentpochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="linkedin page">'http://www.linkedin.com/in/vincentpochet'</a>,
-            <span class="name">speakerdeck:</span>  <a href="https://speakerdeck.com/vin100" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="speakerdeck page">'https://speakerdeck.com/vin100'</a>,
-            <span class="name">hobbies:</span>            [<span class="prop">'Music'</span>, <span class="prop">'Cinema'</span>, <span class="prop">'Literature'</span>, <span class="prop">'Mountain Bike'</span>, <span class="prop">'Hiking'</span>],
-            <span class="name">facebook:</span>         <a href="https://www.facebook.com/vin100pochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="facebook profile">'vin100pochet'</a>,
-            <span class="name">instagram:</span>       <a href="https://instagram.com/p_vin100" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="instagram profile">'p_vin100'</a>
-        }
-      </pre>
+      <div id="profile_details">
+        <div class="row">me = {</div>
+        <div class="row">
+          <div class="name">name:</div>
+          <div class="prop" itemprop="name">Vincent Pochet</div>
+          <span class="code_element">,</span>
+        </div>
+        <div class="row">
+          <div class="name">email:</div>
+          <a href="mailto:vincent . pochet @ gmail . com" class="prop" target="blank" rel="noopener" itemprop="email" title="email address">vincent . pochet @ gmail . com</a>
+          <span class="code_element">,</span>
+          <div class="comment">// NOTE: Remove spaces</div>
+        </div>
+        <div class="row">
+          <div class="name">job:</div>
+          <a href="http://ruby42.com" class="prop" target="blank" rel="noopener" itemprop="jobTitle" title="job title">Co-founder & full stack developer at Ruby42</a>
+          <span class="code_element">,</span>
+        </div>
+        <div class="row">
+          <div class="name">languages:</div>
+          <div class="array">
+            [
+            <div class="prop">Ruby</div>
+            <span class="code_element">,</span>
+            <div class="prop">Javascript</div>
+            <span class="code_element">,</span>
+            <div class="prop">Go</div>
+            <span class="code_element">,</span>
+            <div class="prop">C#</div>
+            ]<span class="code_element">,</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name">skills:</div>
+          <div class="array">
+            [
+            <div class="prop">Ruby on Rails</div>
+            <span class="code_element">,</span>
+            <div class="prop">PostgreSQL</div>
+            <span class="code_element">,</span>
+            <div class="prop">Elasticsearch</div>
+            <span class="code_element">,</span>
+            <div class="prop">Linux</div>
+            <span class="code_element">,</span>
+            <div class="prop">Docker</div>
+            <span class="code_element">,</span>
+            <div class="prop">Apache Kafka</div>
+            ]<span class="code_element">,</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name">twitter:</div>
+          <a href="https://twitter.com/vin100pochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="twitter profile">@vin100pochet</a>
+          <span class="code_element">,</span>
+        </div>
+        <div class="row">
+          <div class="name">github:</div>
+          <a href="https://github.com/vincent-pochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="github profile">vincent-pochet</a>
+          <span class="code_element">,</span>
+        </div>
+        <div class="row">
+          <div class="name">coordinates:</div>
+          <div class="hash">
+            {
+            <a href="https://www.google.fr/maps/place/Gen%C3%A8ve,+Suisse/@46.2050295,6.1440885,13z/data=!3m1!4b1!4m2!3m1!1s0x478c650693d0e2eb:0xa0b695357b0bbc39" target="blank" rel="noopener" title="coordinates">
+              <div class="name">lat:</div>
+              <div class="number">46.2050295</div>
+              <span class="code_element">,</span>
+              <div class="name">long:</div>
+              <div class="number">6.1440885</div>
+            </a>
+            }<span class="code_element">,</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name">linkedin:</div>
+          <a href="https://www.linkedin.com/in/vincentpochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="linkedin page">http://www.linkedin.com/in/vincentpochet</a>
+          <span class="code_element">,</span>
+        </div>
+        <div class="row">
+          <div class="name">speakerdeck:</div>
+          <a href="https://speakerdeck.com/vin100" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="speakerdeck page">https://speakerdeck.com/vin100</a>
+          <span class="code_element">,</span>
+        </div>
+        <div class="row">
+          <div class="name">hobbies:</div>
+          <div class="array">
+            [
+            <div class="prop">Music</div>
+            <span class="code_element">,</span>
+            <div class="prop">Cinema</div>
+            <span class="code_element">,</span>
+            <div class="prop">Literature</div>
+            <span class="code_element">,</span>
+            <div class="prop">Mountain Bike</div>
+            <span class="code_element">,</span>
+            <div class="prop">Hiking</div>
+            ]<span class="code_element">,</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name">facebook:</div>
+          <a href="https://www.facebook.com/vin100pochet" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="facebook profile">vin100pochet</a>
+          <span class="code_element">,</span>
+        </div>
+        <div class="row">
+          <div class="name">instagram:</div>
+          <a href="https://instagram.com/p_vin100" class="prop" target="blank" rel="noopener" itemprop="sameAs" title="instagram profile">p_vin100</a>
+        </div>
+        <div class="row">}</div>
+      </div>
     </section>
 
-    <section class="bottom_bar">
+    <section id="credit" class="bottom_bar">
       <div class="credit">© Vincent Pochet 2012-2020 - Hosted on GitHub Pages</div>
       <img src="images/vincent.png" alt="Vincent Pochet" />
     </section>

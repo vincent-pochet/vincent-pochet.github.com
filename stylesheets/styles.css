@@ -68,24 +68,73 @@ body {
   width: 600px;
 }
 
+.description .row {
+  width: 100%;
+}
+
 .description .name {
   color: #82AAFF;
+  display: inline-block;
+  width: 150px;
+  padding-left: 15px;
+  vertical-align: top;
 }
 
 .description .prop {
   color: #FFCB6B;
+  display: inline-block;
+}
+
+.description .prop::before {
+  content: "\"";
+}
+
+.description .prop::after {
+  content: "\"";
+}
+
+.description .code_element {
+  display: inline-block;
+  margin-right: 2px;
 }
 
 .description .number {
   color: #C792EA;
+  display: inline-block;
 }
 
 .description .comment {
   color: #4A4A4A;
+  display: inline-block;
 }
 
 .description .array {
   color: white;
+  display: inline-block;
+  width: 70%;
+}
+
+.description .hash {
+  color: white;
+  display: inline-block;
+  width: 70%;
+}
+
+.description .array .prop {
+  display: inherit;
+}
+
+.description .hash a {
+  color: white;
+}
+
+.description .hash a:hover, .description .hash a:hover .name, .description .hash a:hover .number {
+  text-decoration: underline;
+}
+
+.description .hash .name {
+  padding-left: 3px;
+  width: initial;
 }
 
 a {

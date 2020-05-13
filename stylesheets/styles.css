@@ -152,7 +152,6 @@ a small {
 	font-size: 12px;
 }
 
-
 /* Images */
 
 img {
@@ -166,9 +165,13 @@ img {
 
 @media print, screen and (max-width: 600px) {
   .description {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 90%;
+  }
+
+  .description .name {
+    width: 120px;
   }
 }
 
@@ -178,7 +181,7 @@ img {
   }
 
   .description {
-    margin: 20px;
+    padding: 20px;
   }
 
   .bottom_bar img {

@@ -1,0 +1,23 @@
+{
+  "subject": "acct:vin100p@hachyderm.io",
+  "aliases": [
+    "https://hachyderm.io/@vin100p",
+    "https://hachyderm.io/users/vin100p"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://hachyderm.io/@vin100p"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://hachyderm.io/users/vin100p"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://hachyderm.io/authorize_interaction?uri={uri}"
+    }
+  ]
+}
